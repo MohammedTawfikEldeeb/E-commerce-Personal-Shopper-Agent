@@ -1,0 +1,18 @@
+[project]
+name = "e-commerce-personal-shopper-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.0.0",
+    "langchain==0.3.27",
+    "langchain-community==0.3.29",
+    "langchain-google-genai==2.1.12",
+    "openpyxl>=3.1.0",
+    "pandas>=2.0.0",
+    "qdrant-client==1.15.1",
+    "sentence-transformers>=2.2.0",
+    "sqlalchemy==2.0.43",
+    "torch>=2.0.0",
+]
