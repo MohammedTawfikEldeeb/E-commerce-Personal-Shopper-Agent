@@ -71,7 +71,7 @@ graph TD;
 
 ### Challenge 2: Optimizing Retrieval Accuracy
 
-**Problem**: Initial semantic search results had poor relevance for specific user queries, especially with the large product catalog (30,000+ items).
+**Problem**: Initial semantic search results had poor relevance for specific user queries, especially with the large product catalog.
 
 **Solution**:
 - Implemented a two-stage search process: initial retrieval followed by cross-encoder re-ranking
