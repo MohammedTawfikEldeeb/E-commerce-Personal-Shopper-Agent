@@ -32,27 +32,23 @@ def update_conversation_memory(state: AgentState) -> dict:
     """
     print("--- Updating Conversation Memory ---")
     
-    # Get the current user query and AI response
     if len(state.messages) >= 2:
         user_query = state.messages[-2].content if state.messages[-2].type == "human" else ""
         ai_response = state.messages[-1].content if state.messages[-1].type == "ai" else ""
         
-        # Update prior_conversation with the new exchange
         updated_conversation = (
             f"{state.prior_conversation}\n"
             f"HUMAN: {user_query}\n"
             f"AI: {ai_response}"
         ).strip()
         
-        # Keep only the last 4 exchanges (8 lines: 4 HUMAN + 4 AI)
         lines = updated_conversation.split("\n")
-        if len(lines) > 8:  # More than 4 exchanges
-            lines = lines[-8:]  # Keep only last 8 lines (4 exchanges)
+        if len(lines) > 8:  
+            lines = lines[-8:]  
             updated_conversation = "\n".join(lines)
         
         print("Memory updated with latest exchange")
         
         return {"prior_conversation": updated_conversation}
     
-    # If no messages to update, return current state
     return {"prior_conversation": state.prior_conversation}

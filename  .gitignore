@@ -190,3 +190,6 @@ data/processed/*.json
 
 # Add notebooks directory to gitignore
 notebooks/
+
+# Add PDF files to gitignore
+*.pdf

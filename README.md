@@ -113,7 +113,6 @@ graph TD;
 
 ## 📊 Performance Metrics & Results
 
-
 ### Retrieval Accuracy Metrics
 
 #### Product Retrieval Performance
@@ -128,7 +127,6 @@ Total Questions: 20
 Hit Rate @10: 80.00%
 Mean Reciprocal Rank (MRR): 0.6542
 ```
-
 
 ## 🔧 Technical Architecture
 
@@ -201,25 +199,6 @@ The system includes comprehensive testing for all components:
 3. **Conversation Context Testing**: Verification of memory persistence
 4. **Agent Workflow Testing**: End-to-end validation of user interactions
 
-## 📈 Results & Impact
-
-### Business Impact
-- **Enhanced User Experience**: 40% increase in user engagement with contextual search
-- **Improved Conversion Rates**: 25% higher click-through rates on recommended products
-- **Reduced Support Requests**: 30% decrease in FAQ-related customer inquiries
-- **Scalable Architecture**: Handles 30,000+ product catalog with consistent performance
-
-### Technical Achievements
-- **Multi-Lingual Support**: Seamless handling of both English and Arabic queries
-- **Real-time Processing**: Sub-2-second response times for complex queries
-- **Robust Error Handling**: 99.2% uptime with automatic retry mechanisms
-- **Modular Design**: Easy to extend and maintain component architecture
-
-### Innovation Highlights
-- **Context-Aware Search**: First implementation of conversation-aware e-commerce search
-- **Adaptive Query Refinement**: LLM-powered interpretation of vague user requests
-- **Multi-Model Embeddings**: Optimized embedding models for different content types
-- **Intelligent Evaluation**: Automated quality assessment of search results
 
 ## 📁 Project Structure
 
@@ -253,10 +232,33 @@ db/
 ├── schema.sql              # Database schema
 └── ecommerce_products.db   # SQLite database file
 
-
 api.py                      # FastAPI backend
 
 requirements.txt            # Python dependencies
 .env.example                # Environment variable template
 ```
+
+## 🌐 Full-Stack Development with Cursor AI
+
+This project includes a complete full-stack implementation with both frontend and backend components:
+
+### React Frontend
+- Developed with React.js for a responsive user interface
+- Built with assistance from Cursor AI for accelerated development
+- Features intuitive product search and filtering capabilities
+- Real-time interaction with the backend API
+
+### FastAPI Backend
+- RESTful API built with FastAPI for high performance
+- Integrates with the e-commerce personal shopper agent
+- Provides endpoints for product search and recommendations
+- Handles natural language queries and returns structured responses
+
+### Development Process
+- Leveraged Cursor AI for code generation and refactoring
+- Accelerated development with AI-assisted debugging
+- Maintained code quality through AI-guided best practices
+- Streamlined workflow with intelligent code suggestions
+
+## 🙏 Thanks
 
