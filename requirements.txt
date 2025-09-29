@@ -9,4 +9,14 @@ qdrant-client==1.15.1
 langchain==0.3.27
 langchain-community==0.3.29
 langchain-google-genai==2.1.12
+langchain-huggingface==2.0.1
+langgraph==0.6.7
+pydantic==2.11.9
+python-dotenv==1.1.1
 
+fastapi==0.117.1
+python-multipart==0.0.20
+pydantic-settings==2.10.1
+sse-starlette==3.0.2
+selenium==4.35.0
+webdriver-manager

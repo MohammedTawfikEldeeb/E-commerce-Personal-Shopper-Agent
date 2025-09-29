@@ -1,0 +1,83 @@
+[
+    {
+      "question": "I need the waterproof shorts",
+      "expected_id": "Waterproof Printed short Husk"
+    },
+    {
+      "question": "عاوز شراب مخفي لونه غامق",
+      "expected_id": "Hidden Socks SOL"
+    },
+    {
+      "question": "show me a leather belt",
+      "expected_id": "Leather Belt V2"
+    },
+    {
+      "question": "What kind of slim fit t-shirts do you have?",
+      "expected_id": "Basic Slim Fit Round T_Shirt"
+    },
+    {
+      "question": "عندكم قميص مطبوع عليه Game Over؟",
+      "expected_id": "Slim Fit PR_Game Over"
+    },
+    {
+      "question": "I'm looking for a silver polo with a black collar",
+      "expected_id": "Silver Polo Black Collar"
+    },
+    {
+      "question": "ايه البناطيل الجينز اللي عندكم؟",
+      "expected_id": "Turbo Boy Friend AG"
+    },
+    {
+      "question": "I want an oversized shirt that says 'Be Polite'",
+      "expected_id": "Persula Over Size PR_Be Polite"
+    },
+    {
+      "question": "محتاج شورت ميلتون بسيط",
+      "expected_id": "Basic Milton Short"
+    },
+    {
+      "question": "Show me a relaxed fit cargo jeans",
+      "expected_id": "Cargo Jeans AG"
+    },
+    {
+      "question": "عندكم تيشيرت كروشيه؟",
+      "expected_id": "Knitwear Polo T_Shirt MHS022"
+    },
+    {
+      "question": "What do you have made of Single Lycra fabric?",
+      "expected_id": "Slim Fit PR_Takes Time"
+    },
+    {
+      "question": "عاوز قميص بوبلين",
+      "expected_id": "Basic Poplin Shirt"
+    },
+    {
+      "question": "Show me a t-shirt that has cookies on it",
+      "expected_id": "Basic Cookies TAR Shirt"
+    },
+    {
+      "question": "ايه البناطيل اللي قماشتها دينم؟",
+      "expected_id": "Pockets Jeans Pant"
+    },
+    {
+      "question": "Do you have any 'Ransom' shirts?",
+      "expected_id": "Slim Fit PR_Ransom"
+    },
+    {
+      "question": "محتاج تيشيرت مقصوص ومطبوع",
+      "expected_id": "Printed Cut T_Shirt 5 20"
+    },
+    {
+      "question": "I'm looking for an oversized shirt, something I can wear when I'm ready for a picture",
+      "expected_id": "Over Size PR_Ready"
+    },
+    {
+      "question": "ايه القمصان اللي خامتها كتان؟",
+      "expected_id": "Shebeka Cotton Karoh Shirt"
+    },
+    {
+      "question": "Do you have a round knitwear t-shirt?",
+      "expected_id": "Knitwear Round T_Shirt MHS01"
+    }
+    
+  ]

@@ -1,0 +1,13 @@
+Evaluate if search results match user request considering conversation context.
+
+Prior Conversation: "{prior_conversation}"
+User's Request: "{user_query}"
+Search Results: "{search_results}"
+
+Criteria:
+1. Product Type Match? (YES/NO)
+2. Attribute Match? (YES/NO)
+3. Constraint Match? (YES/NO)
+4. Relevance? (YES/NO)
+
+Respond with JSON: {{"is_valid": boolean, "reasoning": "explanation"}}
